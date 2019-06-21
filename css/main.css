@@ -1,0 +1,201 @@
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@font-face {
+  font-family: "HelveticaNeueRegular";
+  src: url('../fonts/HelveticaNeueRegular.otf'); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url('../fonts/HelveticaNeueBold.otf'); /* IE9 Compat Modes */
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #FFE600;
+  font-family: HelveticaNeueBold;
+  height: 95vh;
+}
+/*header*/
+div.background{
+  background-image: url(../img/background.jpg);
+  height: 98vh;
+  background-position: center;
+  background-size: cover;
+  width: 99%;
+  margin: 0 auto;
+}
+
+/*barra*/
+div.barra{
+  width: 100%;
+  background-color: #004A8E;
+  height: 14%;
+  margin-top: -8px;
+
+  margin-bottom: 100px;
+}
+div.logo{
+  width: 15%;
+  background-color: #FFE600;
+  height: 140px;
+  line-height: 140px;
+
+}
+img.logo {
+  display: block;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*ventas*/
+section.contenedor-ventas{
+  width: 90%;
+  margin: auto;
+  height: 150px;
+  line-height: 150px;
+
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.titulo-ventas {
+  width: 25%;
+  background-color: #004A8E;
+  color: #fff;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  border: 5px solid #004A8E;
+}
+
+.numero-ventas {
+  width: 75%;
+  background-color: #FFF;
+  color: #004A8E;
+  font-size: 150px;
+  text-align: center;
+  border: 5px solid #004A8E;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*RELOJ*/
+section.programa{
+  /* position: relative; */
+}
+div.contenido-programa{
+  /* position: absolute; */
+}
+div.contenedor-reloj{
+  width: 90%;
+  margin: 0 auto;
+  height: 150px;
+  line-height: 150px;
+  font-size: 100px;
+  vertical-align: middle;
+  color: #fff;
+}
+div.contenedor-fecha{
+  width: 90%;
+  margin: 0 auto;
+  height: 100px;
+  line-height: 100px;
+  font-size: 40px;
+  vertical-align: middle;
+  color: #fff;
+}
+/*RELOJ*/
+section.fecha{
+  /* position: relative; */
+  margin-top: 0px;
+}
+div.contenido-programa{
+  /* position: absolute; */
+}
+footer{
+  margin-bottom: 10px;
+  height: 30%;
+}
+footer .footer-clima{
+  width: 33%;
+  float: left;
+  height: 270px;
+}
+div .clima-actual{
+  background-color: #004A8E;
+}
+.icono-clima{
+  float: left;
+  width: 33%;
+  height: 150px;
+  background-color: #004A8E;
+}
+.descripcion-clima{
+  float: left;
+  width: 33%;
+  height: 150px;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 30px;
+  background-color: #004A8E;
+  text-align: center;
+}
+.temperatura{
+  float: left;
+  width: 33%;
+  height: 150px;
+  padding-top: 15px;
+  padding-bottom:  15px;
+  padding-right:   15px;
+  background-color: #004A8E;
+  line-height: 120px;
+}
+.contenido-temperatura{
+  text-align: center;
+  font-size: 80px;
+  background-color: #FFE600;
+  color: #004A8E;
+}
+footer .footer-noticias{
+  background-color: #FFE600;
+  width: 55%;
+  float: left;
+  margin-top: 150px;
+  height: 120px;
+  font-size: 50px;
+  color: #004A8E;
+}
+footer .footer-logo{
+  background-color: #004A8E;
+  margin-left: 10px;
+  width: 10%;
+  float: left;
+  margin-top: 150px;
+  height: 120px;
+}
+.clima-proximo{
+margin: 10px;
+}
+.climas-siguientes{
+  float: left;
+  width: 25%;
+  height: 150px;
+  background-color: #004A8E;
+}
