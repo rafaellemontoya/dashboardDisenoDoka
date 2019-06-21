@@ -40,21 +40,21 @@ div.background{
 div.barra{
   width: 100%;
   background-color: #004A8E;
-  height: 14%;
+  height: 14vh;
   margin-top: -8px;
 
-  margin-bottom: 100px;
+  margin-bottom: 10vh;
 }
 div.logo{
   width: 15%;
   background-color: #FFE600;
-  height: 140px;
-  line-height: 140px;
+  height: 15vh;
+  line-height: 15vh;
 
 }
 img.logo {
   display: block;
-  padding-top: 30px;
+  padding-top: 5vh;
   margin-left: auto;
   margin-right: auto;
 }
@@ -62,32 +62,32 @@ img.logo {
 section.contenedor-ventas{
   width: 90%;
   margin: auto;
-  height: 150px;
-  line-height: 150px;
+  height: 20vh;
 
 }
 .column {
   float: left;
-  padding: 10px;
+  padding: 1vh;
 }
 
 .titulo-ventas {
   width: 25%;
   background-color: #004A8E;
   color: #fff;
-  font-size: 50px;
-  line-height: 75px;
+  font-size: 7vh;
+  height: 20vh;
   text-align: center;
-  border: 5px solid #004A8E;
+  border: .5vh solid #004A8E;
 }
 
 .numero-ventas {
   width: 75%;
   background-color: #FFF;
   color: #004A8E;
-  font-size: 150px;
+  font-size: 15vh;
+  height: 20vh;
   text-align: center;
-  border: 5px solid #004A8E;
+  border: .5vh solid #004A8E;
 }
 
 /* Clear floats after the columns */
@@ -106,70 +106,69 @@ div.contenido-programa{
 div.contenedor-reloj{
   width: 90%;
   margin: 0 auto;
-  height: 150px;
-  line-height: 150px;
-  font-size: 100px;
+  height: 15vh;
+  font-size: 12vh;
   vertical-align: middle;
   color: #fff;
 }
 div.contenedor-fecha{
   width: 90%;
   margin: 0 auto;
-  height: 100px;
-  line-height: 100px;
-  font-size: 40px;
+  height: 10vh;
+  font-size: 4.5vh;
   vertical-align: middle;
   color: #fff;
 }
 /*RELOJ*/
 section.fecha{
   /* position: relative; */
-  margin-top: 0px;
+  margin-top: 0vh;
 }
 div.contenido-programa{
   /* position: absolute; */
 }
 footer{
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
   height: 30%;
+  width: 95%;
+  margin: 0 0 0 5%;
 }
 footer .footer-clima{
   width: 33%;
   float: left;
-  height: 270px;
 }
 div .clima-actual{
   background-color: #004A8E;
+  width: 99.2%;
 }
 .icono-clima{
   float: left;
   width: 33%;
-  height: 150px;
+  height: 15vh;
   background-color: #004A8E;
 }
 .descripcion-clima{
   float: left;
   width: 33%;
-  height: 150px;
-  padding-top: 50px;
+  height: 15vh;
+  padding-top: 4vh;
   color: #fff;
-  font-size: 30px;
+  font-size: 3vh;
   background-color: #004A8E;
   text-align: center;
 }
 .temperatura{
   float: left;
   width: 33%;
-  height: 150px;
-  padding-top: 15px;
-  padding-bottom:  15px;
-  padding-right:   15px;
+  height: 15vh;
+  padding-top: 2.5vh;
+  padding-bottom:  2.5vh;
+  padding-right:   2.5vh;
   background-color: #004A8E;
-  line-height: 120px;
 }
 .contenido-temperatura{
   text-align: center;
-  font-size: 80px;
+  font-size: 8vh;
   background-color: #FFE600;
   color: #004A8E;
 }
@@ -177,25 +176,43 @@ footer .footer-noticias{
   background-color: #FFE600;
   width: 55%;
   float: left;
-  margin-top: 150px;
-  height: 120px;
-  font-size: 50px;
+  margin-top: 14.5vh;
+
+  height: 14vh;
+  font-size: 4vh;
   color: #004A8E;
 }
 footer .footer-logo{
   background-color: #004A8E;
-  margin-left: 10px;
-  width: 10%;
+  margin-left: .5vh;
+  width: 11%;
   float: left;
-  margin-top: 150px;
-  height: 120px;
+  margin-top: 13.5vh;
+  height: 15vh;
 }
 .clima-proximo{
-margin: 10px;
+  width: 100%;
 }
 .climas-siguientes{
+  margin-top: .5vh;
   float: left;
-  width: 25%;
-  height: 150px;
+  width: 32.2%;
+  height: 13vh;
+  background-color: #004A8E;
+}
+.climas-siguientes2{
+  margin-left: .5vh;
+  margin-top: .5vh;
+  float: left;
+  width: 32.2%;
+  height: 13vh;
+  background-color: #004A8E;
+}
+.climas-siguientes3{
+  margin-left: .5vh;
+  margin-top: .5vh;
+  float: left;
+  width: 32.2%;
+  height: 13vh;
   background-color: #004A8E;
 }
